@@ -7,6 +7,7 @@ import path from 'path';
 import {fileURLToPath} from 'url';
 import {dirname} from 'path';
 import fileUpload from 'express-fileupload';
+import models from './models/models.js';
 
 dotenv.config();
 
