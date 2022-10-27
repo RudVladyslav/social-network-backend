@@ -54,6 +54,7 @@ class AuthController {
       }
 
       const token = generateJwtToken(user.id, user.email);
+      console.log(token)
       return res.json({token});
 
     } catch (e) {
